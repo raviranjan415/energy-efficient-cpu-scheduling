@@ -411,6 +411,7 @@ function updatePerformanceChart() {
             }
         });
         
+        
         // Update existing chart
         else {
                performanceChart.data.datasets[0].data = frequencies;
